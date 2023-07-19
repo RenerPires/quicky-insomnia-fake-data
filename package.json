@@ -1,0 +1,46 @@
+{
+  "name": "insomnia-plugin-quicky-fake-data-generation",
+  "version": "1.0.0",
+  "description": "Generate Faker values in Insomnia",
+  "main": "index.js",
+  "insomnia": {
+    "name": "quicky-fake-data",
+    "display-name": "Quicky Generate Fake Data",
+    "description": "Generate Faker values in Insomnia",
+    "publisher": {
+      "name": "quicky",
+      "icon": "./assets/quickyLogo.svg"
+    },
+    "images": {
+      "icon": "./assets/quickyLogo.svg",
+      "cover": "./assets/quickyInsoCover.png"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RenerPires/quicky-insomnia-fake-data"
+  },
+  "keywords": [
+    "quicky",
+    "insomnia",
+    "plugin",
+    "custom",
+    "faker",
+    "generate",
+    "random",
+    "data"
+  ],
+  "author": {
+    "name": "Rener Pires",
+    "url": "https://www.buymeacoffee.com/renerpires"
+  },
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "proper-case": "^1.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
